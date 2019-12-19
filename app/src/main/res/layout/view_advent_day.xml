@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="match_parent"
+        android:id="@+id/iv_advent_image"
+        android:animateLayoutChanges="true"
+        android:scaleType="fitXY"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/str_advent_image" />
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/tv_advent_day"
+        android:background="@drawable/advent_day_background_white"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:animateLayoutChanges="true"
+        android:textSize="@dimen/dimen_advent_day_text_size"
+        android:gravity="center"
+        android:textColor="#000"
+        android:layout_height="match_parent"/>
+</FrameLayout>

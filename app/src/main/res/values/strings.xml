@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">AdventCalendarApp</string>
+    <string name="str_advent_image">Advent Image</string>
 </resources>

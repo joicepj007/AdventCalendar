@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:height="40dp" android:width="80dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/colorWhite"/>
+        </shape>
+    </item>
+    <item android:height="30dp" android:width="30dp" android:drawable="@drawable/santa2" android:gravity="center">
+        <scale android:scaleWidth="20dp" android:scaleHeight="20dp">
+
+        </scale>
+    </item>
+</layer-list>
