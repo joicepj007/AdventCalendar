@@ -1,9 +1,7 @@
 package com.sample.adventcalendarapp.view
 
 import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
 
-import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
